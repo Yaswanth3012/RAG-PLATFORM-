@@ -164,11 +164,4 @@ Honest about scope:
   fine-grained per-chunk ACLs beyond document-level tags, and multi-tenant
   isolation — each is a real project in itself.
 
-## Talking about this in interviews
 
-The things worth being able to explain clearly: why RRF over score
-blending, why RBAC is checked at the vector-store layer *and* the DB layer,
-why tables/images get separate structured extraction instead of naive text
-flattening, and why citations are resolved post-hoc from the model's actual
-output rather than requested from the model directly (an LLM will
-confidently cite a source it didn't use if you just ask it to name one).
